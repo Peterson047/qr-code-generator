@@ -1,0 +1,12 @@
+header {
+    display: flex;
+    /* Usando flexbox para alinhar os elementos lado a lado */
+    justify-content: center;
+    /* Centraliza o conteúdo horizontalmente */
+    align-items: center
+}
+
+img {
+    margin-right: 10px;
+    /* Adiciona uma margem à direita para separar a imagem do texto */
+}
