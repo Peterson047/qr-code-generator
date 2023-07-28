@@ -66,10 +66,10 @@ const createSaveBtn = (saveUrl) => {
   const link = document.createElement('a');
   link.id = 'save-link';
   link.classList =
-    'bg-blue-800 hover:bg-red-900 text-white font-bold py-2 rounded w-1/3 m-auto my-5';
+    'bg-blue-800 hover:bg-blue-600 text-white font-bold py-2 rounded w-1/3 m-auto my-5';
   link.href = saveUrl;
   link.download = 'qrcode';
-  link.innerHTML = 'Salvar';
+  link.innerHTML = '⠀⠀Salvar⠀⠀'; //caracter invisivel
   document.getElementById('generated').appendChild(link);
 };
 

@@ -10,3 +10,10 @@ img {
     margin-right: 10px;
     /* Adiciona uma margem à direita para separar a imagem do texto */
 }
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
