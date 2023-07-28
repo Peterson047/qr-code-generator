@@ -17,3 +17,15 @@ main {
     justify-content: center;
 
 }
+
+@media (max-width: 760px) {
+    #margin-mobile-corrector {
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .generated {
+        padding-bottom: 5px;
+    }
+
+}
